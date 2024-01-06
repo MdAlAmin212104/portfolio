@@ -153,3 +153,33 @@ header{
       font-weight: 700;
       line-height: 30px;
 }
+
+/* skill section here */
+.skills-section{
+      display: flex;
+      gap: 24px;
+      margin: 50px 140px;
+}
+.skill{
+      border-radius: 5px;
+      background: #FFF;
+      box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+      width: 267px;
+      height: 360px;
+}
+.skill img{
+      padding: 30px;
+}
+.skill-title{
+      color: var(--Dark-01, #181818);
+      padding-left: 30px;
+      font-size: 20px;
+      font-weight: 700;
+}
+.skill-desc{
+      color: var(--Dark-03, #757575);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+      padding-left: 30px;
+}
