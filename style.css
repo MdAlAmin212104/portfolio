@@ -268,3 +268,60 @@ footer{
 .contact-section button{
       margin-top: 24px;
 }
+
+
+@media screen and (max-width:576px){
+      .banner{
+            flex-direction: column;
+            margin: 0 0;
+      }
+      nav{
+            flex-direction: column;
+            margin: 0   auto;
+      }
+      nav > ul{
+            flex-direction: column;
+            grid-row-gap: 10px;
+      }
+      .contact{
+            margin-top: 20px;
+            margin-left: 0;
+      }
+      .about{
+            width: 100%;
+            height: 100%;
+      }
+      .section-desc {
+            width: 100%;
+      }
+      .about-info-container{
+            flex-direction: column;
+            margin: 0;
+      }
+      .skills-section{
+            flex-direction: column;
+            margin: 0;
+      }
+      .resume-container{
+            flex-direction: column;
+            margin: 0;
+            margin-left: 20px;
+      }
+      hr{
+            width: 100%;
+      }
+      footer{
+            flex-direction: column-reverse;
+            height: 100%;
+      }
+      .footer-column{
+            margin: 10px;
+            width: 85%;
+      }
+      .contact-section input{
+            width: 100%;
+      }
+      .contact-section textarea{
+            width: 100%;
+      }
+}
